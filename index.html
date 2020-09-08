@@ -5,24 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- vinculacion del HTML con mi CSS -->
     <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/">
     <!-- link a fontawesome -->
     <script src="https://kit.fontawesome.com/5c58b8374d.js" crossorigin="anonymous"></script>
     <!-- link a google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Podcast</title>
 </head>
 <body>
     <nav class="navegador">
             <img class="imagen_logo" src="img/logo.svg" alt="Logo bd">
+            <input type="checkbox" id="hamburguesa">
             <label class="img_menu" for="hamburguesa"><i class="fas fa-bars"></i></label>
             <label class="img_cruz" for="hamburguesa"><i class="fas fa-times"></i></label>
-            <input type="checkbox" id="hamburguesa">
             <ul>
-                <li><a href="">EPISODIOS</a></li>
-                <li><a href="">NOSOTROS</a></li>
-                <li><a href="">ENTREVISTAS</a></li>
-                <li><a href="">TOPICOS</a></li>  
+                <li><a href="#">EPISODIOS</a></li>
+                <li><a href="#">NOSOTROS</a></li>
+                <li><a href="#">ENTREVISTAS</a></li>
+                <li><a href="#">TOPICOS</a></li>  
             </ul>
     </nav>
+    <section class="inicio">
+        <h1 class="titulo">hello<span class="texto-tachado"> world</span> pale blue dot<span class="punto-azul">.</span></h1>
+        <p class="texto-titulo">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <p class="texto-media-query">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <button class="boton">
+            <a href="#">CONOCÉ MÁS</a>
+        </button>
+    </section>
+    <main class="episodios">
+        <div class="paralelogramo">
+            <h2 class="subtitulo-episodios">Episodios</h2>
+            <div class="tarjetas">
+                <iframe class="spotify" src="https://open.spotify.com/embed/show/2ySVrxGkN6n6frMTo9Nsrt?si=mTL559VaRqiiCi5TGFyc8Q" frameborder="0"></iframe>
+                <iframe class="spotify" src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt?si=DXvFhv_2RFaWlufTpeXxgw" frameborder="0"></iframe>
+                <iframe class="spotify" src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD?si=bRNot7rbSkmY45RuzkFk7g" frameborder="0"></iframe>
+                <iframe class="spotify" src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ?si=YuIs4iIDTke6SBq7p80tng" frameborder="0"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <section class="seccion_celular">
+        <img class="celular" src="img/phone.png" alt="Imagen de Celular">
+        <div class="texto">
+            <h3 class="phone_subtitulo">De dónde venimos</h3>
+            <p class="phone_texto">
+                Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+            </p>
+            <p class="phone_texto">
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+            </p>
+        </div>
+    </section>
+
+    <section class="seccion_fotos">
+        <h3 class="fotos_subtitulos">Invitadas/os estelares</h3>
+        <div class="galeria_fotos">
+            <img clas="fotografias" src="img/grace-hopper.png" alt="Imagen de Invitadas Estelares">
+            <img clas="fotografias" src="img/Katie-Bouman.png" alt="Imagen de Invitadas Estelares">
+            <img clas="fotografias" src="img/Margaret_Hamilton.png" alt="Imagen de Invitadas Estelares">
+            <img clas="fotografias" src="img/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Imagen de Invitadas Estelares">
+            <img clas="fotografias" src="img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="Imagen de Invitadas Estelares">
+            <img clas="fotografias" src="img/susan-kare.png" alt="Imagen de Invitadas Estelares">
+        </div>
+    </section>
 </body>
 </html>
