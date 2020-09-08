@@ -1,5 +1,6 @@
 $font-family-nav:'IBM Plex Mono', monospace;
-$font-family-titulo:'IBM Plex Sans', sans-serif;;
+$font-family-titulo:'IBM Plex Sans', sans-serif;
+$font-family-titulo2:'IBM Plex Sans', sans-serif;
 $font-color-nav:#060A24;
 $font-color-nav-hover:#00F3BB;
 $font-color-blue:#0000EC;
@@ -152,18 +153,44 @@ body{
 }
 
 .seccion_fotos{
-    width: 1000px;
+    width: 100%;
     .fotos_subtitulos{
-        width: 1000px;
+        width: 100%;
         font-family: $font-family-titulo;
-        margin-left: 40px;
+        margin: 0 0 40px 180px;
         font-size:48px;
     }
     .galeria_fotos{
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        .fotografias{
-            width:200px;
+        // .fotografias{
+        //     width:200px;
+        // }
+    }
+}
+
+.temas{
+    .temasSubtitulo{
+        font-family: $font-family-titulo;
+        font-size: 48px;
+        color: #060A24;
+        letter-spacing: 0;
+        margin: 40px 0 40px 180px;
+    }
+    .centrarTarjetas{
+        width:80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        justify-content: end;
+        justify-items: end;
+        .textoTarjeta{
+            font-family: $font-family-nav;
+            font-size: 24px;
+            color: #060A24;
+            letter-spacing: 0;
+            text-align: center;
         }
     }
 }
