@@ -150,18 +150,25 @@ body{
         }
     }
 }
+
 .seccion_fotos{
-    width: 100%;
+    width: 1000px;
     .fotos_subtitulos{
+        width: 1000px;
         font-family: $font-family-titulo;
         margin-left: 40px;
         font-size:48px;
     }
     .galeria_fotos{
         display: grid;
-        grid-template-columns:repeat(3, 1fr)
+        grid-template-columns: 1fr 1fr 1fr;
+        .fotografias{
+            width:100px;
+        }
     }
 }
+
+
 
 // ------  ------  ------ MEDIA QUERIES  ------  ------  ------
 // ------  ------  ------ MEDIA QUERIES  ------  ------  ------
@@ -264,6 +271,18 @@ body{
                 width: 268px;
                 font-size: 14px;
             }
+        }
+    }
+    .seccion_fotos{
+        width: 100vh;
+        .fotos_subtitulos{
+            font-family: $font-family-titulo;
+            margin-left: 40px;
+            font-size:48px;
+        }
+        .galeria_fotos{
+            display: grid;
+            grid-template-columns: 1fr;
         }
     }
 }
