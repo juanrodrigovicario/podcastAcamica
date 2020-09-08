@@ -164,11 +164,14 @@ body {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-content: end;
-  justify-items: end;
+  justify-items: center;
+  justify-content: center;
 }
-.temas .centrarTarjetas .textoTarjeta {
-  font-family: "IBM Plex Mono", monospace;
+.temas .centrarTarjetas .tarjetasTemas {
+  margin: auto;
+}
+.temas .centrarTarjetas .tarjetasTemas .textoTarjeta {
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 24px;
   color: #060A24;
   letter-spacing: 0;

@@ -179,18 +179,21 @@ body{
         margin: 40px 0 40px 180px;
     }
     .centrarTarjetas{
-        width:80%;
+        width: 80%;
         margin: auto;
         display: grid;
-        grid-template-columns:repeat(4,1fr);
-        justify-content: end;
-        justify-items: end;
-        .textoTarjeta{
-            font-family: $font-family-nav;
-            font-size: 24px;
-            color: #060A24;
-            letter-spacing: 0;
-            text-align: center;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        justify-content: center;
+        .tarjetasTemas{
+            margin: auto;
+            .textoTarjeta{
+                font-family: $font-family-titulo2;
+                font-size: 24px;
+                color: #060A24;
+                letter-spacing: 0;
+                text-align: center;
+            }
         }
     }
 }
