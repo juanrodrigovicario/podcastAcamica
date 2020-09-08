@@ -1,6 +1,6 @@
 $font-family-nav:'IBM Plex Mono', monospace;
 $font-family-titulo:'IBM Plex Sans', sans-serif;
-$font-family-titulo2:'IBM Plex Sans', sans-serif;
+$font-family-titulo2:'IBM Plex Sans-SemiBold', sans-serif;
 $font-color-nav:#060A24;
 $font-color-nav-hover:#00F3BB;
 $font-color-blue:#0000EC;
@@ -184,19 +184,22 @@ body{
         display: grid;
         grid-template-columns: repeat(4,1fr);
         justify-items: center;
-        justify-content: center;
-        .tarjetasTemas{
-            margin: auto;
-            .textoTarjeta{
-                font-family: $font-family-titulo2;
-                font-size: 24px;
-                color: #060A24;
-                letter-spacing: 0;
-                text-align: center;
-            }
+        }
+        .tarjetas{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .textoTarjeta{
+            margin: 20px;
+            height: 60px;
+            font-family: $font-family-titulo2;
+            font-size: 24px;
+            text-align: center;
+            
         }
     }
-}
+
 
 
 
