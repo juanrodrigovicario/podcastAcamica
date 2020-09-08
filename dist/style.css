@@ -151,7 +151,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .seccion_fotos .galeria_fotos .fotografias {
-  width: 100px;
+  width: 200px;
 }
 
 @media (max-width: 769px) {
