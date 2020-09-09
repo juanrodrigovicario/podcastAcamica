@@ -383,16 +383,46 @@ body{
                 margin-bottom: 10px;
                 color: #060A24;
                 letter-spacing: 0;
-                line-height: 42px
+                line-height: 42px;
             }
             .phone_texto{
                 width: 268px;
                 font-size: 14px;
+                margin-bottom: 0;
             }
         }
     }
 
-
+    .seccion_fotos{
+        width: 100%;
+        .fotos_subtitulos{
+            font-family: $font-family-titulo;
+            font-size: 36px;
+            color: #060A24;
+            letter-spacing: 0;
+            padding: 10px;
+        }
+        .galeria_fotos{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+             .fotografias{
+                 width:100%;
+            }
+        }
+    }
     
+    .temas{
+    .temasSubtitulo{
+        font-family: $font-family-titulo;
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        padding: 20px 0px 40px 20px;
+    }
+    .centrarTarjetas{
+        grid-template-columns: repeat(1,1fr);
+        }
+    }
 
 }

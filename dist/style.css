@@ -365,5 +365,36 @@ body {
   .seccion_celular .texto .phone_texto {
     width: 268px;
     font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .seccion_fotos {
+    width: 100%;
+  }
+  .seccion_fotos .fotos_subtitulos {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    padding: 10px;
+  }
+  .seccion_fotos .galeria_fotos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .seccion_fotos .galeria_fotos .fotografias {
+    width: 100%;
+  }
+
+  .temas .temasSubtitulo {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    padding: 20px 0px 40px 20px;
+  }
+  .temas .centrarTarjetas {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
