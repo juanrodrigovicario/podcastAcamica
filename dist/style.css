@@ -141,15 +141,19 @@ body {
   width: 100%;
 }
 .seccion_fotos .fotos_subtitulos {
-  width: 100%;
   font-family: "IBM Plex Sans", sans-serif;
-  margin: 0 0 40px 180px;
   font-size: 48px;
+  color: #060A24;
+  letter-spacing: 0;
+  padding: 0px 0 60px 180px;
 }
 .seccion_fotos .galeria_fotos {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+.seccion_fotos .galeria_fotos .fotografias {
+  width: 100%;
 }
 
 .temas .temasSubtitulo {
@@ -157,7 +161,7 @@ body {
   font-size: 48px;
   color: #060A24;
   letter-spacing: 0;
-  margin: 40px 0 40px 180px;
+  padding: 80px 0 60px 180px;
 }
 .temas .centrarTarjetas {
   width: 80%;
@@ -177,6 +181,22 @@ body {
   font-family: "IBM Plex Sans-SemiBold", sans-serif;
   font-size: 24px;
   text-align: center;
+  font-weight: 700;
+}
+
+.novedades .contenidoParalelogramo {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  clip-path: polygon(0 22%, 100% 0, 100% 67%, 0 67%);
+}
+.novedades .contenidoParalelogramo .textoNovedades {
+  color: #fff;
+  padding: 200px 0 0 200px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+.novedades .contenidoParalelogramo .botonNovedades {
+  padding: 100px;
 }
 
 @media (max-width: 769px) {
