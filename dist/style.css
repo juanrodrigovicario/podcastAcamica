@@ -88,7 +88,11 @@ body {
   color: #ffffff;
 }
 
+.episodios {
+  width: 100%;
+}
 .episodios .paralelogramo {
+  width: 100%;
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
 }
@@ -99,14 +103,21 @@ body {
   font-size: 48px;
   font-weight: 300;
 }
-.episodios .paralelogramo .tarjetas {
-  width: 100%;
-  padding-bottom: 200px;
+.episodios .paralelogramo .contenedor {
+  width: 90%;
+  margin: auto;
 }
-.episodios .paralelogramo .tarjetas .spotify {
+.episodios .paralelogramo .contenedor .tarjetas {
+  padding-bottom: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+.episodios .paralelogramo .contenedor .tarjetas .spotify {
   width: 540px;
   height: 240px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .seccion_celular {
@@ -205,7 +216,7 @@ body {
 .novedades .contenidoParalelogramo a {
   text-decoration: none;
   background-color: #00F3BB;
-  margin: 0px 100px 0px 100px;
+  margin: 0px 100px 150px 100px;
   padding: 20px 60px 20px 60px;
   color: #060A24;
   font-family: "IBM Plex Sans", sans-serif;
