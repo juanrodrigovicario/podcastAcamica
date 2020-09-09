@@ -238,6 +238,31 @@ body{
         }
     }
 
+    .footer{
+        width: 100%;
+        .contenedor{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            .textoFooter{
+                font-family: $font-family-nav;
+                font-size: 16px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 28px;
+                align-self: center;
+            }
+            .redesSociales{
+                display: flex;
+                .logos{
+                    list-style: none;
+                    padding:30px 20px;
+                }
+            }
+        }
+    }
+
 
 // ------  ------  ------ MEDIA QUERIES  ------  ------  ------
 // ------  ------  ------ MEDIA QUERIES  ------  ------  ------
