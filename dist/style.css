@@ -339,9 +339,10 @@ body {
     margin: auto;
   }
   .episodios .paralelogramo .contenedor .tarjetas .spotify {
-    width: 290px;
-    height: 236px;
-    margin: 5px;
+    width: 301px;
+    height: 234px;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
   }
 
   .seccion_celular {
