@@ -87,16 +87,19 @@ body{
         background-color:$font-color-nav-hover;
         margin-top:60px;
         padding:15px 0 15px 0;
+        text-decoration:none;
+        padding:15px 60px 15px 60px;
         &:hover{
             background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+            color:$font-color-white;
         }
-        p{
-            text-decoration:none;
-            padding:15px 60px 15px 60px;
-            &:hover{
-                color:$font-color-white;
-            }
-        }
+        // p{
+        //     text-decoration:none;
+        //     padding:15px 60px 15px 60px;
+        //     &:hover{
+        //         color:$font-color-white;
+        //     }
+        // }
     }
 
 }
@@ -268,6 +271,9 @@ body{
                 .logos{
                     list-style: none;
                     padding:30px 20px;
+                    a{
+                        color: black;
+                    }
                 }
             }
         }
